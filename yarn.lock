@@ -2411,11 +2411,6 @@ convert-source-map@^0.3.3:
   resolved "https://registry.npmjs.org/convert-source-map/-/convert-source-map-0.3.5.tgz#f1d802950af7dd2631a1febe0596550c86ab3190"
   integrity sha1-8dgClQr33SYxof6+BZZVDIarMZA=
 
-coolors-to-hex@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/coolors-to-hex/-/coolors-to-hex-1.0.3.tgz#5945ee32e8180b0298347ecd6eb00b6d28802e0e"
-  integrity sha1-WUXuMugYCwKYNH7NbrALbSiALg4=
-
 copy-concurrently@^1.0.0:
   version "1.0.5"
   resolved "https://registry.npmjs.org/copy-concurrently/-/copy-concurrently-1.0.5.tgz#92297398cae34937fcafd6ec8139c18051f0b5e0"
@@ -4011,7 +4006,7 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   resolved "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.4:
+lodash@^4.17.11, lodash@^4.17.13:
   version "4.17.15"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -5978,21 +5973,6 @@ styled-system@^5.0.0, styled-system@^5.1.5:
     "@styled-system/typography" "^5.1.2"
     "@styled-system/variant" "^5.1.5"
     object-assign "^4.1.1"
-
-styled-theme@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.npmjs.org/styled-theme/-/styled-theme-0.3.3.tgz#bfd86c275143e58ced413df3b4704369c44253bc"
-  integrity sha1-v9hsJ1FD5YztQT3ztHBDacRCU7w=
-  dependencies:
-    coolors-to-hex "^1.0.0"
-    styled-tools "^0.1.4"
-
-styled-tools@^0.1.4:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/styled-tools/-/styled-tools-0.1.5.tgz#68052c2faf217870aba865905a2859f43c2951d8"
-  integrity sha1-aAUsL68heHCrqGWQWihZ9DwpUdg=
-  dependencies:
-    lodash "^4.17.4"
 
 stylehacks@^4.0.0:
   version "4.0.3"

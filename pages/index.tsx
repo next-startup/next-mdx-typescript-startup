@@ -2,8 +2,8 @@ import { FC } from 'react'
 import Layout from '../components/Layout'
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
-import { Button, Box, Flex } from 'rebass'
-import Heading from '../components/Heading'
+import { Button, Flex, Heading } from 'rebass'
+import Divider from '../components/Divider'
 
 const Home: FC = () => {
   return(
@@ -13,8 +13,10 @@ const Home: FC = () => {
       align-items: center;
       flex-direction: column;
     `}>
-      {/* <Heading fontSize='5'>Next MDX typescript startup template</Heading> */}
-      <Heading></Heading>
+      <Flex flexDirection='row' alignItems='center'>
+        <Heading fontSize={4}>Nextjs typescript MDX</Heading>
+        <Divider direction='column' sx={{ minHeight: '200%' }} />
+      </Flex>
     </Layout>
   )
 }
