@@ -33,7 +33,7 @@ const Theme = {
       default: 20,
     },
     shadows: {
-      small: '0 2px 4px rgba(0, 0, 0, .3)',
+      small: '0 2px 4px rgba(0, 0, 0, .125)',
       large: '0 4px 24px rgba(0, 0, 0, .125)'
     },
     text: {
