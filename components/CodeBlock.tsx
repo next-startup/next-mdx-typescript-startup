@@ -2,7 +2,6 @@ import { FC } from 'react'
 import Highlight, { defaultProps, Language } from 'prism-react-renderer'
 import theme from 'prism-react-renderer/themes/palenight'
 import { LiveProvider, LiveEditor, LivePreview, LiveError } from 'react-live'
-import { style } from 'styled-system'
 
 interface Props {
   className: string
